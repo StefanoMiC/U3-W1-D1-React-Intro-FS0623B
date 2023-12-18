@@ -1,7 +1,4 @@
 // un componente DEVE essere chiamato con la prima lettera maiuscola, sia dentro al file che esternamente: vedi FormGroup.jsx
-
-import React from "react";
-
 // const FormGroup = () => {
 //   // il componente DEVE ritornare almeno un elemento JSX (e uno soltanto!)
 //   return (
