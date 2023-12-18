@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: block;
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  min-width: 300px;
+  min-height: 30px;
+}
+
+.bg-light {
+  color: black;
+  background-color: white;
+}
+
+.bg-info {
+  color: black;
+  background-color: paleturquoise;
+}
