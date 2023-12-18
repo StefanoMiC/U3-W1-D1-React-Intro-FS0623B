@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import canyonImg from "./photo-b.avif";
 import "./App.css";
 import FormGroup from "./components/FormGroup";
 import MainComponent from "./components/MainComponent";
@@ -24,6 +25,8 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <img src="./assets/imgs/photo.avif" alt="" width="300" />
+        <img src={canyonImg} alt="" width="300" />
         <ClassComponent title="Main Title from Class Component Props" />
         {/* 
         <img src={logo} className="App-logo" alt="logo" />
